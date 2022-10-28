@@ -125,6 +125,7 @@ class _StepsIndicatorState extends State<StepsIndicator>
   /// Init all animation controller
   @override
   void initState() {
+    print("its working");
     super.initState();
     _animationControllerToNext = AnimationController(
         duration: const Duration(milliseconds: 400), vsync: this);
